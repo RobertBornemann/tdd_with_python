@@ -3,6 +3,7 @@
 
 from simple_calculator.main import SimpleCalculator
 import pytest
+from unittest import mock
 
 def test_add_two_numbers():
     numbers = range(100)
